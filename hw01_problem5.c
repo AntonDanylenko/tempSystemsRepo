@@ -1,5 +1,5 @@
 bool not_divisible(int num){
-  for(x=1;x<21;x++){
+  for(int x=1;x<21;x++){
     if(num%x!==0){
       return false;
     }

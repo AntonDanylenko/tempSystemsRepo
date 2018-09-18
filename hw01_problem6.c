@@ -6,5 +6,7 @@ int main(){
     squareSums+=x;
   }
   squareSums*=squareSums;
-  return squareSums-sumSquares;
+  int answer = squareSums-sumSquares;
+  printf("Answer: %d\n", answer);
+  return answer;
 }
